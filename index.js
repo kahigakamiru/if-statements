@@ -11,7 +11,10 @@ function getGrade(score) {
         return console.log('C');
     } else if (score <= 25) {
         return console.log('B');
-    } else {
+    } else if (score > 30) {
+       return console.log('greater than 30 not to be graded');
+    }
+    else {
         return console.log('A');
     }
 
